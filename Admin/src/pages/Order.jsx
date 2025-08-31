@@ -16,7 +16,8 @@ function Order() {
       setOrders(result.data.reverse())
       console.log(result.data)
     } catch (error) {
-      toast.error(error.message)
+      // toast.error(error.message)
+      console.log(error)
     }
   }
   const statusHandler = async (e, orderId) => {
