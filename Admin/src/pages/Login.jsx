@@ -28,7 +28,7 @@ try {
     email,password
   },{withCredentials:true})
   console.log(result.data);
-  toast.success("Admin Login successful");
+  // toast.success("Admin Login successful");
   getAdmin()
   navigate('/')
   setEmail("")
@@ -38,7 +38,7 @@ try {
   console.log(`register error ${error}`);
   setEmail("")
   setPassword("")
-  toast.error("Admin Login failed");
+  // toast.error("Admin Login failed");
 }}
  
   return (
