@@ -7,7 +7,7 @@ import { BsEye } from "react-icons/bs";
 import { useState } from 'react';
 import { useContext } from 'react';
 import axios from 'axios';
-import { authDataContext } from '../context/authContext';
+import { authDataContext } from '../context/AuthContext';
 import { signInWithPopup } from 'firebase/auth';
 import { auth, provider } from '../../utils/Firebase';
 import { userDataContext } from '../context/UserContext';
