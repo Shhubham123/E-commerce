@@ -58,10 +58,10 @@ try {
       name,email
     },{withCredentials:true})
     console.log(result.data);
-    toast.success("Google Login successful");
+    
   } catch (error) {
     console.log(error);
-    toast.error("Google Login failed");
+    
   }
 }
   return (
