@@ -44,7 +44,7 @@ function PlaceOrder() {
                     if(data){
                         navigate('/order')
                         setCartItem({})
-                        toast.success("Payment successful");
+
                     }
             }
 
@@ -112,7 +112,7 @@ function PlaceOrder() {
 
         } catch (error) {
             console.log(error);
-            toast.error("Order placement failed");
+            
             
             
         }
