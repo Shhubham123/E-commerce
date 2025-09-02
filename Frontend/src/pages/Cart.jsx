@@ -23,7 +23,7 @@ function Cart() {
             }
         }
         setcartData(tempData)
-        // toast.success("Cart added successfully");
+
     }, [cartItem])
 
     const removeFromCart = (id, size) => {
