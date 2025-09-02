@@ -29,7 +29,6 @@ try {
     email,password
   },{withCredentials:true})
   console.log(result.data);
-  toast.success("Login successful");
   getCurrentUser()
   navigate('/')
   setEmail("")
@@ -37,7 +36,6 @@ try {
   
 } catch (error) {
   console.log(`register error ${error}`);
-  toast.error("Login failed");
   setEmail("")
   setPassword("")
   
