@@ -13,7 +13,6 @@ import ProductDetail from './pages/ProductDetail'
 import PlaceOrder from './pages/PlaceOrder'
 import Order from './pages/Order'
 import Cart from './pages/Cart'
-import {ToastContainer,toast} from 'react-toastify'
 import Ai from './component/Ai'
 function App() {
   const { userData } = useContext(userDataContext)
@@ -22,7 +21,7 @@ function App() {
 
   return (
     <>
-    <ToastContainer/>
+
       {userData && <Nav />}
       <Routes>
         <Route
