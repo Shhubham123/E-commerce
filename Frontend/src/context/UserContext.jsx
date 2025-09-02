@@ -9,7 +9,7 @@ export const userDataContext = createContext()
 
 function UserContext({children}) {
     let [userData,setUserData]=useState("")
-    let {serverUrl}= useContext(AuthDataContext)
+    let {serverUrl}= useContext(authDataContext)
 
     const getCurrentUser = async(req,res)=>{
     try {
