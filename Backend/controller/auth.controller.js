@@ -40,7 +40,7 @@ export const register = async(req,res)=>{
     }
     catch(err){
         console.log('auth register error',err);
-        return res.status(500).json({message:"auth register error"})
+        return res.status(500).json({message:error,})
     }
 }
 export const login = async(req,res)=>{
