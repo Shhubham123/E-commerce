@@ -28,11 +28,11 @@ function Order() {
             }
 
             setOrderData(allOrderItem.reverse())
-            toast.success("Order data loaded successfully");
+
 
         } catch (error) {
             console.log(error);
-            toast.error("Failed to load order data");
+           
         }
     }
     useEffect(()=>{
